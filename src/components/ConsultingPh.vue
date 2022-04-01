@@ -4,6 +4,14 @@
       <h2>OUR CONSULTANTS CAN HELP YOU</h2>
       <hr />
     </div>
+    <div class="widget-container">
+      <div class="column">
+        <div class="widget-box">
+          <div class="widget-icon">A</div>
+        </div>
+      </div>
+      <div class="column"></div>
+    </div>
   </div>
 </template>
 
@@ -17,10 +25,9 @@ export default {
 .container {
   background-color: #fff;
   height: 480px;
-  display: flex;
+  padding: 5rem 0 0 10rem;
 }
 .title {
-  margin: 5rem auto 0 15rem;
   height: 2rem;
   display: flex;
   align-items: center;
@@ -28,8 +35,23 @@ export default {
   width: 100%;
   hr {
     color: #3affbf;
-    width: 50%;
-    border: 4px solid;
+    width: 60%;
+    border: 2px solid;
   }
+}
+.widget-container {
+  display: flex;
+  .column {
+    margin: 3rem 0;
+  }
+}
+
+.widget-icon {
+  width: 54px;
+  height: 54px;
+  border-radius: 100%;
+  background-color: #f81e3a;
+  text-align: center;
+  line-height: 3.3;
 }
 </style>
