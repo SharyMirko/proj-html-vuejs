@@ -27,7 +27,12 @@
               :key="i"
               :class="{ active: activeNav == i }"
             >
-              <a @click="activeNav = i" :href="item.link">{{ item.name }}</a>
+              <a
+                @click="activeNav = i"
+                :href="item.link"
+                :style="activeNav == i ? 'color: #fff' : ''"
+                >{{ item.name }}</a
+              >
             </li>
           </ul>
         </div>
@@ -74,8 +79,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+header {
+  height: 680px;
+}
 .container {
-  height: 480px;
   display: flex;
 }
 .head-side {

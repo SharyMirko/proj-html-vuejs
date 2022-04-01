@@ -1,15 +1,18 @@
 <template>
   <div id="app">
     <HeaderPhlox />
+    <ConsultingPh />
   </div>
 </template>
 
 <script>
 import HeaderPhlox from "./components/HeaderPhlox.vue";
+import ConsultingPh from "./components/ConsultingPh.vue";
 export default {
   name: "App",
   components: {
     HeaderPhlox,
+    ConsultingPh,
   },
 };
 </script>
