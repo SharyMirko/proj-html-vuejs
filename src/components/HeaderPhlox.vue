@@ -12,7 +12,19 @@
           <h1>THE BEST BUSINESS CONSULTING</h1>
         </div>
       </div>
-      <div class="head-jumbo"></div>
+      <div class="head-jumbo">
+        <div class="nav">
+          <ul>
+            <li
+              v-for="(item, i) in nav"
+              :key="i"
+              :class="{ active: activeNav == i }"
+            >
+              <a @click="activeNav = i" :href="item.link">{{ item.name }}</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   </header>
 </template>
@@ -20,12 +32,42 @@
 <script>
 export default {
   name: "HeaderPhlox.vue",
+  data() {
+    return {
+      activeNav: 0,
+      nav: [
+        {
+          name: "Home",
+          link: "#",
+        },
+        {
+          name: "About",
+          link: "#",
+        },
+        {
+          name: "Projects",
+          link: "#",
+        },
+        {
+          name: "Services",
+          link: "#",
+        },
+        {
+          name: "Blog",
+          link: "#",
+        },
+        {
+          name: "Contact",
+          link: "#",
+        },
+      ],
+    };
+  },
 };
 </script>
 
 <style lang="scss" scoped>
 .container {
-  background-color: aqua;
   height: 480px;
   display: flex;
 }
@@ -66,5 +108,28 @@ export default {
   background-repeat: no-repeat;
   width: 65%;
   height: 680px;
+  .nav {
+    padding: 0 0 0 15rem;
+    ul {
+      list-style: none;
+      li {
+        display: inline-block;
+        margin: 0 0.5rem;
+        padding: 1rem 0;
+        a {
+          text-transform: uppercase;
+          text-decoration: none;
+          color: #aaaaaa;
+          font-size: 0.8rem;
+          &:hover {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+.active {
+  border-top: 3px solid #fff;
 }
 </style>
