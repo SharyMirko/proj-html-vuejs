@@ -13,6 +13,9 @@
         </div>
         <div class="actions">
           <div class="btn"><a href="#">read more</a></div>
+          <div class="btn-play">
+            <a href="#"><img src="../../public/img/play-fill.svg" alt="" /></a>
+          </div>
         </div>
       </div>
 
@@ -138,8 +141,23 @@ export default {
   border-top: 3px solid #fff;
 }
 .actions {
+  display: flex;
   position: relative;
   top: 10rem;
   padding: 0 0 0 10rem;
+}
+
+.btn-play {
+  width: 36px;
+  height: 36px;
+  border: 1px solid white;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 2.4;
+  margin-left: 1rem;
+}
+.btn-play a {
+  display: block;
+  text-decoration: none;
 }
 </style>
