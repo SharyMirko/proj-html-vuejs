@@ -11,7 +11,11 @@
         <div class="large-slogan">
           <h1>THE BEST BUSINESS CONSULTING</h1>
         </div>
+        <div class="actions">
+          <div class="btn"><a href="#">read more</a></div>
+        </div>
       </div>
+
       <div class="head-jumbo">
         <div class="nav">
           <ul>
@@ -109,7 +113,7 @@ export default {
   width: 65%;
   height: 680px;
   .nav {
-    padding: 0 0 0 15rem;
+    padding: 0 0 0 20rem;
     ul {
       list-style: none;
       li {
@@ -121,6 +125,7 @@ export default {
           text-decoration: none;
           color: #aaaaaa;
           font-size: 0.8rem;
+          font-weight: 600;
           &:hover {
             color: #fff;
           }
@@ -131,5 +136,10 @@ export default {
 }
 .active {
   border-top: 3px solid #fff;
+}
+.actions {
+  position: relative;
+  top: 10rem;
+  padding: 0 0 0 10rem;
 }
 </style>

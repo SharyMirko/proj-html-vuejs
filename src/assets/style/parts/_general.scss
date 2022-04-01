@@ -7,3 +7,28 @@ body {
   max-width: 1228px;
   margin: 0 auto;
 }
+
+.btn {
+  background-color: #39ffbf;
+  width: 9rem;
+  text-align: center;
+  height: 2.5rem;
+  line-height: 3.2;
+}
+
+.btn a {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 200;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #1f1e38;
+}
+
+.btn:hover {
+  background-color: #f00e2e;
+}
+
+.btn:hover a {
+  color: #fefefe;
+}
