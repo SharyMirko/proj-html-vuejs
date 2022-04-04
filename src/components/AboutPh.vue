@@ -32,6 +32,7 @@
           </p>
         </div>
       </div>
+      <div class="btn-red"><a href="#">get started</a></div>
     </div>
   </div>
 </template>
@@ -95,7 +96,7 @@ export default {
 }
 .nonso {
   width: 100%;
-  height: 10rem;
+  padding: 4rem 0 0 0;
   background-color: #35ffbf;
   display: flex;
   flex-direction: column;
@@ -120,6 +121,20 @@ export default {
       font-weight: 200;
       color: #1f1e38;
     }
+  }
+}
+.btn-red {
+  background-color: red;
+  padding: 0.8rem 1.4rem;
+  align-self: end;
+  margin-bottom: 0;
+  a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  &:hover {
+    background-color: #1f1e38;
   }
 }
 </style>
