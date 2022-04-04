@@ -19,7 +19,20 @@
         </p>
       </div>
     </div>
-    <div class="nonso"></div>
+    <div class="nonso">
+      <div class="text">
+        <div class="text-left">
+          <h6>WE HELP TO DELIVER THE BUSINESS CASE</h6>
+        </div>
+        <div class="text-right">
+          <p>
+            When, while lovely valley teems with vapour around meand meridian
+            sun strikes the upper impenetrable foliage of my trees, and but a
+            thousand unknown
+          </p>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -66,21 +79,47 @@ export default {
     }
   }
   .slogan {
-    width: 20rem;
+    width: 25rem;
     padding: 1rem;
     h5 {
-      font-size: 2rem;
+      font-size: 2.7rem;
     }
   }
   .slogan-text {
+    width: 25rem;
     padding: 0 0 0 1rem;
     font-weight: 200;
     color: #aaa;
+    text-align: justify;
   }
 }
 .nonso {
   width: 100%;
   height: 10rem;
   background-color: #35ffbf;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .text {
+    display: flex;
+    width: 100%;
+    padding: 0 5rem;
+    .text-left {
+      margin: 0 5rem 0 5rem;
+      width: 11rem;
+      h6 {
+        font-weight: 700;
+        color: #1f1f39;
+        font-size: 1rem;
+        line-height: 1.8;
+      }
+    }
+    .text-right {
+      width: 20rem;
+      font-size: 0.8rem;
+      font-weight: 200;
+      color: #1f1e38;
+    }
+  }
 }
 </style>
