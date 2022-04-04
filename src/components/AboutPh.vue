@@ -2,7 +2,10 @@
   <div class="container">
     <div class="jumbo-about"></div>
     <div class="slogan-about">
-      <div class="title"><h6>about us</h6></div>
+      <div class="title">
+        <hr />
+        <h6>about us</h6>
+      </div>
       <div class="slogan">
         <h5>WE MAKE YOUR STRATEGY WORK</h5>
       </div>
@@ -16,6 +19,7 @@
         </p>
       </div>
     </div>
+    <div class="nonso"></div>
   </div>
 </template>
 
@@ -27,8 +31,9 @@ export default {
 
 <style lang="scss" scoped>
 .container {
-  padding: 0rem 15rem 0 0;
+  padding: 0rem 15rem 5rem 0;
   display: flex;
+  flex-wrap: wrap;
   background-image: url("../../public/img/7576.svg");
   background-size: cover;
   background-position: right;
@@ -44,5 +49,38 @@ export default {
 .slogan-about {
   width: 50%;
   padding: 3rem 0 0 5rem;
+  color: #fff;
+  .title {
+    padding: 6rem 0 0 1rem;
+    display: flex;
+    align-items: center;
+    h6 {
+      text-transform: uppercase;
+      font-size: 10px;
+    }
+    hr {
+      color: #3affbf;
+      width: 2rem;
+      border: 1px solid;
+      margin-right: 0.5rem;
+    }
+  }
+  .slogan {
+    width: 20rem;
+    padding: 1rem;
+    h5 {
+      font-size: 2rem;
+    }
+  }
+  .slogan-text {
+    padding: 0 0 0 1rem;
+    font-weight: 200;
+    color: #aaa;
+  }
+}
+.nonso {
+  width: 100%;
+  height: 10rem;
+  background-color: #35ffbf;
 }
 </style>
