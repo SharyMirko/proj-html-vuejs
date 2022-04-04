@@ -19,7 +19,7 @@
         <div class="widget-box">
           <div class="widget-icon">A</div>
           <div class="widget-text">
-            <h3>STATISTICAL CONSULTING</h3>
+            <h3>BANKING CONSULTING</h3>
             <p>
               When, while lovely valley teems with vapour around meand eridian
               sun strikes the upper impenetrable foliage of my trees, and but a
@@ -31,7 +31,7 @@
         <div class="widget-box">
           <div class="widget-icon">A</div>
           <div class="widget-text">
-            <h3>STATISTICAL CONSULTING</h3>
+            <h3>DIGITAL CONSULTING</h3>
             <p>
               When, while lovely valley teems with vapour around meand eridian
               sun strikes the upper impenetrable foliage of my trees, and but a
@@ -41,7 +41,7 @@
         <div class="widget-box">
           <div class="widget-icon">A</div>
           <div class="widget-text">
-            <h3>STATISTICAL CONSULTING</h3>
+            <h3>ENTERPRISE CONSULTING</h3>
             <p>
               When, while lovely valley teems with vapour around meand eridian
               sun strikes the upper impenetrable foliage of my trees, and but a
