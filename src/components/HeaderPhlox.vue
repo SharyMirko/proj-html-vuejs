@@ -86,7 +86,7 @@ header {
   display: flex;
 }
 .head-side {
-  width: 35%;
+  width: 25%;
   height: 680px;
   background: url("../../public/img/7576.svg");
   background-position: center;
@@ -97,7 +97,7 @@ header {
     }
   }
   .small-slogan {
-    padding: 10rem 0 0 13.5rem;
+    padding: 10rem 0 0 9rem;
     p {
       color: white;
       font-weight: 200;
@@ -105,8 +105,8 @@ header {
     }
   }
   .large-slogan {
-    width: 30%;
-    margin: 0 0 0 10rem;
+    width: 30rem;
+    margin: 0 0 0 5.6rem;
     position: absolute;
     h1 {
       color: white;
@@ -120,10 +120,10 @@ header {
   background-image: url("../../public/img/portrait-of-young-architect-woman-on-meeting-KFZCE3A.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  width: 65%;
+  width: 75%;
   height: 680px;
   .nav {
-    padding: 0 0 0 20rem;
+    padding: 0 0 0 30rem;
     ul {
       list-style: none;
       li {
@@ -151,7 +151,7 @@ header {
   display: flex;
   position: relative;
   top: 10rem;
-  padding: 0 0 0 10rem;
+  padding: 0 0 0 5.6rem;
 }
 
 .btn-play {

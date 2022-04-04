@@ -8,9 +8,47 @@
       <div class="column">
         <div class="widget-box">
           <div class="widget-icon">A</div>
+          <div class="widget-text">
+            <h3>STATISTICAL CONSULTING</h3>
+            <p>
+              When, while lovely valley teems with vapour around meand eridian
+              sun strikes the upper impenetrable foliage of my trees, and but a
+            </p>
+          </div>
+        </div>
+        <div class="widget-box">
+          <div class="widget-icon">A</div>
+          <div class="widget-text">
+            <h3>STATISTICAL CONSULTING</h3>
+            <p>
+              When, while lovely valley teems with vapour around meand eridian
+              sun strikes the upper impenetrable foliage of my trees, and but a
+            </p>
+          </div>
         </div>
       </div>
-      <div class="column"></div>
+      <div class="column">
+        <div class="widget-box">
+          <div class="widget-icon">A</div>
+          <div class="widget-text">
+            <h3>STATISTICAL CONSULTING</h3>
+            <p>
+              When, while lovely valley teems with vapour around meand eridian
+              sun strikes the upper impenetrable foliage of my trees, and but a
+            </p>
+          </div>
+        </div>
+        <div class="widget-box">
+          <div class="widget-icon">A</div>
+          <div class="widget-text">
+            <h3>STATISTICAL CONSULTING</h3>
+            <p>
+              When, while lovely valley teems with vapour around meand eridian
+              sun strikes the upper impenetrable foliage of my trees, and but a
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -22,10 +60,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import url("../assets/style/parts/_variables.scss");
 .container {
   background-color: #fff;
-  height: 480px;
-  padding: 5rem 0 0 10rem;
+  padding: 5rem 0 0 15rem;
 }
 .title {
   height: 2rem;
@@ -35,14 +73,16 @@ export default {
   width: 100%;
   hr {
     color: #3affbf;
-    width: 60%;
+    width: 65%;
     border: 2px solid;
   }
 }
 .widget-container {
   display: flex;
   .column {
-    margin: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 15rem 0 0;
   }
 }
 
@@ -53,5 +93,18 @@ export default {
   background-color: #f81e3a;
   text-align: center;
   line-height: 3.3;
+  margin-right: 2rem;
+}
+
+.widget-box {
+  display: -webkit-inline-box;
+  width: 20rem;
+  margin: 1rem 0 6rem 0;
+}
+
+.widget-text {
+  h3 {
+    margin: 1rem 0;
+  }
 }
 </style>
