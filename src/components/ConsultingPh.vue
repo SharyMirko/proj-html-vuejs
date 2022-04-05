@@ -102,6 +102,7 @@ export default {
   display: flex;
   justify-content: center;
   align-content: center;
+  margin: 1rem;
   img {
     width: 60%;
   }
@@ -115,7 +116,7 @@ export default {
 
 .widget-text {
   h3 {
-    margin: 1rem 0;
+    margin: 2rem 0;
   }
 }
 </style>
