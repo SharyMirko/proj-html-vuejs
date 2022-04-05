@@ -5,6 +5,8 @@
     <AboutPh />
     <ProjectsPh />
     <TestimonialPh />
+    <BlogPh />
+    <FooterPh />
   </div>
 </template>
 
@@ -14,6 +16,8 @@ import ConsultingPh from "./components/ConsultingPh.vue";
 import AboutPh from "./components/AboutPh.vue";
 import ProjectsPh from "./components/ProjectsPh.vue";
 import TestimonialPh from "./components/TestimonialPh.vue";
+import BlogPh from "./components/BlogPh.vue";
+import FooterPh from "./components/FooterPh.vue";
 export default {
   name: "App",
   components: {
@@ -22,6 +26,8 @@ export default {
     AboutPh,
     ProjectsPh,
     TestimonialPh,
+    BlogPh,
+    FooterPh,
   },
 };
 </script>
