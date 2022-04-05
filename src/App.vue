@@ -1,12 +1,12 @@
 <template>
   <div id="app">
-    <HeaderPhlox />
+    <HeaderPhlox @menu="menu = $event" />
     <ConsultingPh />
     <AboutPh />
     <ProjectsPh />
     <TestimonialPh />
     <BlogPh />
-    <FooterPh />
+    <FooterPh :menu="menu" />
   </div>
 </template>
 
@@ -28,6 +28,11 @@ export default {
     TestimonialPh,
     BlogPh,
     FooterPh,
+  },
+  data() {
+    return {
+      menu: null,
+    };
   },
 };
 </script>

@@ -23,14 +23,17 @@
           <h5>Lorem Ipsum</h5>
           <p>Category</p>
         </div>
-        <img src="../../public/img/z1el4c4p-790x592.jpg" alt="" />
+        <img src="../../public/img/DRY-1-790x592.jpg" alt="" />
       </div>
       <div class="slider-widget">
         <div class="widget-text">
           <h5>Lorem Ipsum</h5>
           <p>Category</p>
         </div>
-        <img src="../../public/img/z1el4c4p-790x592.jpg" alt="" />
+        <img
+          src="../../public/img/221bf0b7-8134-43bb-936a-5acbe42db64a-790x592.jpg"
+          alt=""
+        />
       </div>
       <div class="slider-widget">
         <div class="widget-text">
@@ -69,7 +72,7 @@ export default {
 }
 
 .title {
-  padding: 2rem 0 0 1rem;
+  padding: 2rem 0 0 0;
   display: flex;
   align-items: center;
   h6 {

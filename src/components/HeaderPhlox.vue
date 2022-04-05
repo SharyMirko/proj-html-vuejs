@@ -6,6 +6,7 @@
           <img src="../../public/img/logotype.png" alt="logo" />
         </div>
         <div class="small-slogan">
+          <hr />
           <p>ALWATS THE BEST WAY YOU NEED IT</p>
         </div>
         <div class="large-slogan">
@@ -75,6 +76,9 @@ export default {
       ],
     };
   },
+  created: function () {
+    this.$emit("menu", this.nav);
+  },
 };
 </script>
 
@@ -97,11 +101,19 @@ header {
     }
   }
   .small-slogan {
-    padding: 10rem 0 0 9rem;
+    padding: 10rem 0 0 6rem;
+    display: flex;
     p {
       color: white;
       font-weight: 200;
       font-size: 0.8rem;
+    }
+    hr {
+      color: #3affbf;
+      width: 2rem;
+      border: 1px solid;
+      margin-right: 0.5rem;
+      align-self: end;
     }
   }
   .large-slogan {

@@ -11,25 +11,34 @@
     <div class="main-footer">
       <img class="img" src="../../public/img/logotype-2-139x23.png" alt="" />
       <ul>
-        <li><a href="">menu</a></li>
-        <li><a href="">menu</a></li>
-        <li><a href="">menu</a></li>
-        <li><a href="">menu</a></li>
+        <li v-for="(item, i) in menu" :key="i">
+          <a :href="item.link">{{ item.name }}</a>
+        </li>
       </ul>
       <ul class="social">
         <li>
           <a href="#"><img src="../../public/img/instagram.svg" alt="" /></a>
         </li>
         <li>
-          <a href="#"><img src="../../public/img/instagram.svg" alt="" /></a>
+          <a href="#"><img src="../../public/img/linkedin.svg" alt="" /></a>
         </li>
         <li>
-          <a href="#"><img src="../../public/img/instagram.svg" alt="" /></a>
+          <a href="#"><img src="../../public/img/facebook.svg" alt="" /></a>
         </li>
         <li>
-          <a href="#"><img src="../../public/img/instagram.svg" alt="" /></a>
+          <a href="#"><img src="../../public/img/twitter.svg" alt="" /></a>
         </li>
       </ul>
+    </div>
+    <hr />
+    <div class="copyright">
+      <div class="terms">
+        <p>Terms of use</p>
+        <p>Privacy Environmental Policy</p>
+      </div>
+      <div class="legal">
+        <p>Copyright © 2022 Phlox Consulting. All Rights Reserved.</p>
+      </div>
     </div>
   </div>
 </template>
@@ -37,6 +46,9 @@
 <script>
 export default {
   name: "FooterPh",
+  props: {
+    menu: Array,
+  },
 };
 </script>
 
@@ -46,6 +58,9 @@ export default {
   background-image: url("../../public/img/7576.svg");
   background-size: cover;
   background-color: #1f1e38;
+  hr {
+    margin: 0 15rem 0 15rem;
+  }
 }
 .jumbo-footer {
   width: 100%;
@@ -107,8 +122,20 @@ export default {
         color: #aaa;
         font-size: 0.7rem;
         font-weight: 300;
+        &:hover {
+          color: #f81d39;
+        }
       }
     }
+  }
+}
+.copyright {
+  padding: 1rem 15rem 1rem 15rem;
+  display: flex;
+  justify-content: space-between;
+  color: #aaa;
+  .terms {
+    width: 15rem;
   }
 }
 </style>

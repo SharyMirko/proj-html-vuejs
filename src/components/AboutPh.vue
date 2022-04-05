@@ -19,7 +19,7 @@
         </p>
       </div>
     </div>
-    <div class="nonso">
+    <div class="green-bar">
       <div class="text">
         <div class="text-left">
           <h6>WE HELP TO DELIVER THE BUSINESS CASE</h6>
@@ -94,7 +94,7 @@ export default {
     text-align: justify;
   }
 }
-.nonso {
+.green-bar {
   width: 100%;
   padding: 4rem 0 0 0;
   background-color: #35ffbf;

@@ -56,7 +56,7 @@ export default {
 }
 
 .title {
-  padding: 2rem 0 0 1rem;
+  padding: 2rem 0 0 0;
   display: flex;
   align-items: center;
   h6 {
@@ -98,6 +98,19 @@ export default {
       top: 70%;
       left: 30%;
       transform: translate(0%, 10%);
+      h5 {
+        color: red;
+        font-size: 0.6rem;
+        font-weight: 200;
+      }
+      h6 {
+        color: #1f1e38;
+        font-size: 1rem;
+        margin: 0.5rem 0;
+      }
+      p {
+        font-weight: 200;
+      }
     }
   }
 }
