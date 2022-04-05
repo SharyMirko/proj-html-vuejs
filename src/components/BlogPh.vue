@@ -87,6 +87,9 @@ export default {
     width: calc((100% - 2rem) / 2);
     margin: 1rem;
     position: relative;
+    &:hover {
+      cursor: pointer;
+    }
     img {
       width: 100%;
     }
