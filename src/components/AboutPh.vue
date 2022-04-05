@@ -106,7 +106,7 @@ export default {
     width: 100%;
     padding: 0 5rem;
     .text-left {
-      margin: 0 5rem 0 5rem;
+      margin: 0 15rem 0 10rem;
       width: 11rem;
       h6 {
         font-weight: 700;
@@ -132,6 +132,7 @@ export default {
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
+    display: block;
   }
   &:hover {
     background-color: #1f1e38;

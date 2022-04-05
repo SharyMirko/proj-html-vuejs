@@ -3,6 +3,7 @@
     <HeaderPhlox />
     <ConsultingPh />
     <AboutPh />
+    <ProjectsPh />
   </div>
 </template>
 
@@ -10,12 +11,14 @@
 import HeaderPhlox from "./components/HeaderPhlox.vue";
 import ConsultingPh from "./components/ConsultingPh.vue";
 import AboutPh from "./components/AboutPh.vue";
+import ProjectsPh from "./components/ProjectsPh.vue";
 export default {
   name: "App",
   components: {
     HeaderPhlox,
     ConsultingPh,
     AboutPh,
+    ProjectsPh,
   },
 };
 </script>
