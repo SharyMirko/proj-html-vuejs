@@ -7,7 +7,9 @@
     <div class="widget-container">
       <div class="column">
         <div class="widget-box">
-          <div class="widget-icon">A</div>
+          <div class="widget-icon">
+            <img src="../../public/img/diagram-3.svg" alt="" />
+          </div>
           <div class="widget-text">
             <h3>STATISTICAL CONSULTING</h3>
             <p>
@@ -17,7 +19,9 @@
           </div>
         </div>
         <div class="widget-box">
-          <div class="widget-icon">A</div>
+          <div class="widget-icon">
+            <img src="../../public/img/wallet2.svg" alt="" />
+          </div>
           <div class="widget-text">
             <h3>BANKING CONSULTING</h3>
             <p>
@@ -29,7 +33,9 @@
       </div>
       <div class="column">
         <div class="widget-box">
-          <div class="widget-icon">A</div>
+          <div class="widget-icon">
+            <img src="../../public/img/megaphone.svg" alt="" />
+          </div>
           <div class="widget-text">
             <h3>DIGITAL CONSULTING</h3>
             <p>
@@ -39,7 +45,9 @@
           </div>
         </div>
         <div class="widget-box">
-          <div class="widget-icon">A</div>
+          <div class="widget-icon">
+            <img src="../../public/img/bullseye.svg" alt="" />
+          </div>
           <div class="widget-text">
             <h3>ENTERPRISE CONSULTING</h3>
             <p>
@@ -91,9 +99,12 @@ export default {
   height: 54px;
   border-radius: 100%;
   background-color: #f81e3a;
-  text-align: center;
-  line-height: 3.3;
-  margin-right: 2rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  img {
+    width: 60%;
+  }
 }
 
 .widget-box {

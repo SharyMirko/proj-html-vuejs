@@ -110,6 +110,7 @@ export default {
       }
       p {
         font-weight: 200;
+        font-size: 0.8rem;
       }
     }
   }
